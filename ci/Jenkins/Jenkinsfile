@@ -13,8 +13,7 @@ pipeline {
       steps {
         sh 'ls -ltr'
         // build the project and create a JAR file
-        sh 'cd demo-java-app && mvn clean package'
-        sh 'export DOCKER_API_VERSION=1.43 && docker build -t your-image .'
+        sh 'cd demo-java-app && mvn clean package
       }
     }
     stage('Static Code Analysis') {
