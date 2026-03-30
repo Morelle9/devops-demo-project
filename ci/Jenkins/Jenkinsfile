@@ -5,7 +5,7 @@ pipeline {
         // Force la version de l'API Docker compatible avec ta VM Ubuntu
         DOCKER_API_VERSION = '1.43'
         // Ton pseudo DockerHub (tu as confirmé que c'est 'admin')
-        DOCKER_USER = 'Morelle9'
+        DOCKER_USER = 'morelle9'
         IMAGE_NAME = 'demo-java-app'
     }
 
